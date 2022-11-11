@@ -1,0 +1,5 @@
+runtime: nodejs16
+
+env_variables:
+  GOOGLE_CLIENT_ID: "22846746171-bhlg303ro1hq0mq4hsd2f7jj6l84qc2v.apps.googleusercontent.com"
+  GOOGLE_CLIENT_SECRET: "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"
