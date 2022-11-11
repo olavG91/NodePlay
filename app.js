@@ -1,12 +1,9 @@
 var express = require("express");
 var app = express();
+app.use(express.json());
 
-app.get("/url", (request, respone, next) => {
-    respone.json(
-        {
-            name: "asd"
-        }
-    );
+app.get("/url", (request, response, next) => {
+    response.send('Hello');
 });
 
 
