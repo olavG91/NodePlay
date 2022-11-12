@@ -1,9 +1,10 @@
 var express = require("express");
 var app = express();
+const cors = require("cors");
 app.use(express.json());
 
-app.get("/url", (request, response, next) => {
-    response.send('Hello');
+app.get("/url", (req, res) => {
+    res.send('This is wokring');
 });
 
 
